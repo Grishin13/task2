@@ -147,8 +147,8 @@ function sequence(start, step) {
  */
 function deepEqual(firstObject, secondObject)
 {
-    if (firstObject !== firstObject && secondObject !== secondObject)
-        return true;
+	if (firstObject !== firstObject && secondObject !== secondObject)
+		return true;
 	if (firstObject === secondObject) {
 		return true;
 	}
